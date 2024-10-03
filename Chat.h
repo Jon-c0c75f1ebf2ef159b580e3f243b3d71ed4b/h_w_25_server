@@ -16,6 +16,7 @@ private:
     std::string registerUser();
     std::string showChat();
     std::string addMessage();
+    std::string showUsers();
 
     std::vector<std::string> messageToVector(std::string message, std::string delimiter);
 };
